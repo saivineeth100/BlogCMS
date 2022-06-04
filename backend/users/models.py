@@ -42,7 +42,7 @@ class UserRoles(models.TextChoices):
     READER = 'Reader', _('Reader')
 
 
-class Users(AbstractUser):
+class User(AbstractUser):
 
     user_role = models.CharField(
         max_length=6, choices=UserRoles.choices, default=UserRoles.READER)

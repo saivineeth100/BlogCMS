@@ -1,0 +1,65 @@
+[
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$RqdQ9SL60aOzD8GZspe0GI$OXOK9C9/4nU0faV+ib6alANgUjZlvydl3R9fP/u0upg=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "saivineeth",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-06-04T06:45:20.155Z",
+            "phone_number": null,
+            "dp": null,
+            "user_role": "SAdmin",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$PsEV6sFdCS9K2ew45IgoIW$BtMcCwSg3h2hTa5op6dEJMx7kpgn2o46Fnwcy9BeE+M=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "adminuser",
+            "first_name": "admin",
+            "last_name": "user",
+            "email": "adminuser@admin.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-06-04T06:45:20.155Z",
+            "phone_number": null,
+            "dp": null,
+            "user_role": "Admin",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$PsEV6sFdCS9K2ew45IgoIW$BtMcCwSg3h2hTa5op6dEJMx7kpgn2o46Fnwcy9BeE+M=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "reader",
+            "first_name": "reader",
+            "last_name": "user",
+            "email": "reader@test.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-06-04T06:45:20.155Z",
+            "phone_number": null,
+            "dp": null,
+            "user_role": "Reader",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
